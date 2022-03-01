@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="icon" href="src/assets/images/favicon.png" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>NFT Preview Card Component</title>
+    </head>
+
+    <body class="flex justify-center items-center w-full min-h-screen bg-main p-6">
+
+        <main class="w-full h-auto p-6 rounded-2xl bg-card sm:w-[25rem]">
+            <div class="relative w-full h-auto rounded-lg overflow-hidden">
+                <img class="w-full" src="src/assets/images/image-equilibrium.jpg" alt="Equilibrium illustration">
+                <a class="absolute top-0 left-0 w-full h-full opacity-0 bg-transparent-cyan bg-view-icon bg-no-repeat bg-center transition-opacity hover:opacity-100" href="/"></a>
+            </div>
+            <a class="text-center xs:text-left block text-2xl font-semibold text-white mt-5 mb-4 tracking-wider transition-colors hover:text-cyan" href="/">Equilibrium #3429</a>
+            <p class="text-center xs:text-left text-lg font-light text-soft-blue leading-6 tracking-wide mb-5">Our Equilibrium collection promotes balance and calm.</p>
+            <div class="flex flex-col justify-start items-center space-y-3 xs:flex-row xs:justify-between xs:space-y-0">
+
+                <div class="flex flex-row items-center">
+                    <svg class="w-3 h-auto mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11 18">
+                        <path d="M11 10.216 5.5 18 0 10.216l5.5 3.263 5.5-3.262ZM5.5 0l5.496 9.169L5.5 12.43 0 9.17 5.5 0Z" fill="#00FFF8"/>
+                    </svg>
+                    <p class="text-center text-lg leading-5 font-medium uppercase text-cyan">0.041 ETH</p>
+                </div>
+
+                <div class="flex flex-row items-center">
+                    <svg class="w-4 h-auto mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17 17">
+                        <path d="M8.305 2.007a6.667 6.667 0 1 0 0 13.334 6.667 6.667 0 0 0 0-13.334Zm2.667 7.334H8.305a.667.667 0 0 1-.667-.667V6.007a.667.667 0 0 1 1.334 0v2h2a.667.667 0 0 1 0 1.334Z" fill="#8BACD9"/>
+                    </svg>
+                    <p class="text-center text-lg leading-5 font-light text-soft-blue tracking-wide">3 days left</p>
+                </div>
+
+            </div>
+            <div class="w-full h-px mb-4 mt-4 bg-line"></div>
+            <div class="flex flex-col items-center xs:flex-row">
+                <img class="flex-shrink-0 flex-grow-0 w-9 h-9 rounded-full border-2 border-white mb-4 xs:mb-0 xs:mr-5" src="src/assets/images/image-avatar.png" alt="">
+                <p class="text-lg text-center xs:text-left leading-5 font-light text-soft-blue">Creation of <a class="text-white transition-colors hover:text-cyan" href="/">Jules Wyvern</a></p>
+            </div>
+        </main>
+
+        <script type="module" src="/src/main.ts"></script>
+    </body>
+
+</html>
