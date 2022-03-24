@@ -8,12 +8,12 @@ module.exports = {
   theme: {
     screens: {
       xs: '340px',
-      sm: '448px',
+      sm: '398px',
     },
     colors: {
       'soft-blue': 'hsl(215, 51%, 70%)',
       'cyan': 'hsl(178, 100%, 50%)',
-      'transparent-cyan': 'rgba(0, 255, 247, 0.5)',
+      'transparent-cyan': 'rgba(0, 255, 247, 0.6)',
       'main': 'hsl(217, 54%, 11%)',
       'card': 'hsl(216, 50%, 16%)',
       'line': 'hsl(215, 32%, 27%)',
@@ -25,6 +25,9 @@ module.exports = {
           'Outfit',
           ...defaultTheme.fontFamily.sans,
         ]
+      },
+      maxWidth: {
+        "card": "350px",
       },
       backgroundImage: {
         'view-icon': "url('/src/assets/images/icon-view.svg')",
