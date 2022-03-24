@@ -13,31 +13,43 @@
 
     <body class="flex justify-start items-center w-full min-h-screen bg-main px-6 py-12 sm:justify-center">
 
+        <!-- Card -->
         <main class="w-full h-auto p-6 rounded-2xl shadow-2xl bg-card sm:max-w-card">
+            
+            <!-- Card image -->
             <div class="relative w-full h-auto rounded-lg overflow-hidden mb-6">
                 <img class="w-full" src="src/assets/images/image-equilibrium.jpg" alt="Equilibrium illustration">
                 <a class="absolute top-0 left-0 w-full h-full opacity-0 bg-transparent-cyan bg-view-icon bg-no-repeat bg-center transition-opacity hover:opacity-100" href="#"></a>
             </div>
-            <a class="text-center xs:text-left block text-[22px] font-semibold text-white mb-4 tracking-[0.02rem] transition-colors hover:text-cyan" href="#">Equilibrium #3429</a>
-            <p class="text-center xs:text-left text-base font-light text-soft-blue leading-6 mb-6 sm:text-lg sm:leading-7">Our Equilibrium collection promotes balance and calm.</p>
-            <div class="flex flex-col justify-start items-center space-y-3 xs:flex-row xs:justify-between xs:space-y-0">
 
+            <!-- Product title -->
+            <a class="text-center xs:text-left block text-[22px] font-semibold text-white mb-4 tracking-[0.02rem] transition-colors hover:text-cyan" href="#">Equilibrium #3429</a>
+            
+            <!-- Product description -->
+            <p class="text-center xs:text-left text-base font-light text-soft-blue leading-6 mb-6 sm:text-lg sm:leading-7">Our Equilibrium collection promotes balance and calm.</p>
+            
+            <!-- Product info -->
+            <div class="flex flex-col justify-start items-center space-y-3 xs:flex-row xs:justify-between xs:space-y-0">
+                <!-- Product price -->
                 <div class="flex flex-row items-center">
                     <svg class="w-2.5 h-auto mr-1.5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11 18">
                         <path class="fill-cyan" d="M11 10.216 5.5 18 0 10.216l5.5 3.263 5.5-3.262ZM5.5 0l5.496 9.169L5.5 12.43 0 9.17 5.5 0Z"/>
                     </svg>
                     <p class="text-center text-base leading-5 font-normal uppercase text-cyan">0.041 ETH</p>
                 </div>
-
+                <!-- Product time left -->
                 <div class="flex flex-row items-center">
                     <svg class="w-4 h-auto mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17 17">
                         <path class="fill-soft-blue" d="M8.305 2.007a6.667 6.667 0 1 0 0 13.334 6.667 6.667 0 0 0 0-13.334Zm2.667 7.334H8.305a.667.667 0 0 1-.667-.667V6.007a.667.667 0 0 1 1.334 0v2h2a.667.667 0 0 1 0 1.334Z"/>
                     </svg>
                     <p class="text-center text-base leading-5 font-normal text-soft-blue">3 days left</p>
                 </div>
-
             </div>
+
+            <!-- Card divider -->
             <div class="w-full h-px mb-4 mt-4 bg-line sm:mt-6"></div>
+
+            <!-- Product author -->
             <div class="flex flex-col items-center xs:flex-row">
                 <img class="flex-shrink-0 flex-grow-0 w-8 h-8 rounded-full outline outline-1 outline-white mb-4 xs:mb-0 xs:mr-4" src="src/assets/images/image-avatar.png" alt="">
                 <p class="text-base text-center xs:text-left leading-5 font-normal text-soft-blue">Creation of <a class="text-white transition-colors hover:text-cyan" href="#">Jules Wyvern</a></p>
