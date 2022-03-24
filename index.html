@@ -10,7 +10,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>NFT Preview Card Component</title>
       <script type="module" crossorigin src="/nft-preview-card-component/assets/index.42fe4937.js"></script>
-      <link rel="stylesheet" href="/nft-preview-card-component/assets/index.686375e7.css">
+      <link rel="stylesheet" href="/nft-preview-card-component/assets/index.690d1bec.css">
     </head>
 
     <body class="flex justify-start items-center w-full min-h-screen bg-main px-6 py-12 sm:justify-center">
@@ -21,11 +21,13 @@
             <!-- Card image -->
             <div class="relative w-full h-auto rounded-lg overflow-hidden mb-6">
                 <img class="w-full" src="/nft-preview-card-component/assets/image-equilibrium.90d2b484.jpg" alt="Equilibrium illustration">
-                <a class="absolute top-0 left-0 w-full h-full opacity-0 bg-transparent-cyan bg-view-icon bg-no-repeat bg-center transition-opacity hover:opacity-100" href="#"></a>
+                <a class="absolute top-0 left-0 w-full h-full opacity-0 bg-transparent-cyan bg-view-icon bg-no-repeat bg-center transition-opacity hover:opacity-100" aria-label="Open Equilibrium illustration" href="#"></a>
             </div>
 
             <!-- Product title -->
-            <a class="text-center xs:text-left block text-[22px] font-semibold text-white mb-4 tracking-[0.02rem] transition-colors hover:text-cyan" href="#">Equilibrium #3429</a>
+            <a class="block text-center xs:text-left group" href="#">
+                <h1 class="text-[22px] font-semibold text-white mb-4 tracking-[0.02rem] transition-colors group-hover:text-cyan">Equilibrium #3429</h1>
+            </a>
             
             <!-- Product description -->
             <p class="text-center xs:text-left text-base font-light text-soft-blue leading-6 mb-6 sm:text-lg sm:leading-7">Our Equilibrium collection promotes balance and calm.</p>
